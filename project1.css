@@ -1,0 +1,128 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://www-vacasa.imgix.net/zoom_background_15618_key_west_fl_copy.jpg?auto=format%2Ccompress&ixlib=python-3.1.1&q=45&s=6c12bc853b4233b1c1089358c3ad4bf3");
+    background-size: cover;
+
+}
+
+.left {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    font-size: 34px;
+}
+
+.left span {
+    color: #ffeb3b;
+}
+
+.middle {
+    width: 55%;
+    margin: 2px auto;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    font-size: 23px;
+    right: 34px;
+    top: 22px;
+    display: inline-block;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: red;
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: #5035350f;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: rgb(251, 255, 20);
+    background-color: gray;
+}
+
+.container {
+    font-family: 'Baloo Bhai 2', cursive;
+    border: 2px solid #ffffe9;
+    background-color: #9e9e9ea1;
+    margin: 45px auto;
+    padding: 30px 40px;
+    width: 55%;
+    border-radius: 20px;
+    color: white;
+}
+
+.container span {
+    font-size: 35px;
+    text-align: center;
+}
+
+.form-group input {
+    font-family:'Baloo Bhai 2', cursive ;
+    display: block;
+    width: 89%;
+    border-radius: 2px;
+    border: black;
+    margin: 20px  auto;
+    font-size: 23px;
+    padding: 23px;
+    background-color: ghostwhite;
+    border-radius: 9px;
+    padding: 23px;
+
+
+}
+.container button{
+    text-align: center;
+    width:97%;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: #000000cc;
+}
+.container button:hover{
+    background-color: #80808000;
+    color: black;
+    border: 2px solid black;
+}
+.cont{
+width: 55%;
+font-size: 39px;
+font-family: 'Baloo Bhai 2', cursive;
+font-weight: bold;
+color:black;
+margin: 45px auto;
+}
